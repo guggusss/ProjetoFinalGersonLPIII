@@ -3,7 +3,7 @@
         <div id="header">
             <h1 id="fleft">Football Importado</h1>
             <a href="#" class="fright" @click="logoutNow()">
-                Logout
+                Sair
             </a>
         </div>
 
@@ -11,22 +11,22 @@
             <ul class="nav">
                 <li>
                     <router-link to="/admin/category">
-                        Category
+                        Categoria
                     </router-link>
                 </li>
                 <li>
                     <router-link to="/admin/Supplier">
-                        Supplier
+                        Fornecedor
                     </router-link>
                 </li>
                 <li>
                     <router-link to="/admin/product">
-                        Product
+                        Produto
                     </router-link>
                 </li>
                 <li>
                     <router-link to="/admin/shop">
-                        Shop
+                        Loja
                     </router-link>
                 </li>
             </ul>

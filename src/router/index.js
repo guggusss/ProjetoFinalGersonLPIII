@@ -3,8 +3,11 @@ import Router from 'vue-router'
 import Login from '@/components/pages/Login'
 import Admin from '@/components/pages/admin/Admin'
 import Category from '@/components/pages/admin/Category'
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-
+Vue.use(BootstrapVue)
 Vue.use(Router)
 
 export default new Router({
